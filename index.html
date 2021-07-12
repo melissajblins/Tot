@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html class="cor-site">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tot</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Cabeçalho-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand fonte-Montserrat cor-especial" href="#">Tot</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <ul class="navbar-nav">
+          <li><a class="nav-link" href="#">início </a></li>
+          <li><a class="nav-link" href="#secao-cursos">cursos</a></li>
+          <li><a class="nav-link" href="#secao-comunidades">comunidades </a></li>
+          <li><a class="nav-link" href="#secao-anotacoes">meus cadernos</a></li>
+          <li><a class="nav-link" href="#secao-chats">chats</a></li>
+          <li><a class="nav-link" href="#secao-foruns">fóruns</a></li>
+          <li><a class="nav-link" href="#secao-sentimentos">espaço do sentimento</a></li>
+          <li><a class="nav-link" href="#secao-pontuacao">24 XP</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!--Banner-->
+    <section class="banner">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 imagem-banner" src="src/img/saladeaula.jpg" alt="Banner do Tot">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Login-->
+    <section class="login">
+      <form class="formulario">
+        <div class="form-group">
+          <label for="e-mail">Endereço de e-mail</label>
+          <input type="email" class="form-control" id="e-mail" aria-describedby="emailHelp" placeholder="email@dominio.com.br">
+        </div>
+        <div class="form-group">
+          <label for="senha">Senha</label>
+          <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+        </div>
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </form>
+    </section>
+  
+    <!--Cursos-->
+    <section class="cursos">
+      <div class="titulo" id="secao-cursos">
+        <h2 class="text-center h2 fonte-Montserrat cor-especial pt-3">Seus cursos</h2>
+        <p class="text-center text-secondary pb-3">Onde você está matriculado</p>
+      </div>
+      <div class="container">  
+        <div class="row justify-content-center">
+          <article class="card largura-card borda-cor-especial p-0 m-4 col-12 col-md-4">
+            <img src="src/img/portugues.jpg" class="card-img-top imagens-card" alt="Pessoas sentadas em livros e estudando">
+            <div class="card-body">
+              <h5 class="card-title">Português</h5>
+              <p class="card-text">Ensino Fundamental II</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Acesse o curso</a>
+            </div>
+          </article>
+    
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/matematica.jpeg" class="card-img-top imagens-card" alt="Caderno, números e materiais de matemática">
+            <div class="card-body">
+              <h5 class="card-title">Matemática</h5>
+              <p class="card-text">Ensino Fundamental II</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Acesse o curso</a>
+            </div>
+          </article>
+    
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/historia.jpg" class="card-img-top imagens-card" alt="Livros e um relógio">
+            <div class="card-body">
+              <h5 class="card-title">História</h5>
+              <p class="card-text">Ensino Fundamental II</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Acesse o curso</a>
+            </div>
+          </article>
+    
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/geografia.jpg" class="card-img-top imagens-card" alt="Um mapa mundi sendo observado com uma lupa">
+            <div class="card-body">
+              <h5 class="card-title">Geografia</h5>
+              <p class="card-text">Ensino Fundamental II</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Acesse o curso</a>
+            </div>
+          </article>
+    
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/ciencias.jpg" class="card-img-top imagens-card" alt="Um cérebro em funcionamento">
+            <div class="card-body">
+              <h5 class="card-title">Ciências</h5>
+              <p class="card-text">Ensino Fundamental II</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Acesse o curso</a>
+            </div>
+          </article>
+    
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/artes.jpeg" class="card-img-top imagens-card" alt="A noite estrelada, Van Gogh">
+            <div class="card-body">
+              <h5 class="card-title">Artes</h5>
+              <p class="card-text">Ensino Fundamental II</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Acesse o curso</a>
+            </div>
+          </article>
+
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/educacaofisica.jpg" class="card-img-top imagens-card" alt="Pessoa fazendo exercício">
+            <div class="card-body">
+              <h5 class="card-title">Educação Física</h5>
+              <p class="card-text">Ensino Fundamental II</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Acesse o curso</a>
+            </div>
+          </article>
+
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/tecnologia.jpg" class="card-img-top imagens-card" alt="Computador e seus aplicativos">
+            <div class="card-body">
+              <h5 class="card-title">Tecnologia</h5>
+              <p class="card-text">Ensino Fundamental II</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Acesse o curso</a>
+            </div>
+          </article>
+
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/ingles.jpg" class="card-img-top imagens-card" alt="Pessoa falando">
+            <div class="card-body">
+              <h5 class="card-title">Inglês</h5>
+              <p class="card-text">Ensino Fundamental II</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Acesse o curso</a>
+            </div>
+          </article>
+
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/projeto.jpg" class="card-img-top imagens-card" alt="Pessoa observando seu futuro">
+            <div class="card-body">
+              <h5 class="card-title">Projeto de vida</h5>
+              <p class="card-text">Ensino Fundamental II</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Acesse o curso</a>
+            </div>
+          </article>
+
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/eletivas.jpeg" class="card-img-top imagens-card" alt="Pessoa se indagando com seu futuro">
+            <div class="card-body">
+              <h5 class="card-title">Eletivas</h5>
+              <p class="card-text">Ensino Fundamental II</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Acesse o curso</a>
+            </div>
+          </article>
+
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/libras.png" class="card-img-top imagens-card" alt="Pessoas se comunicando por libras">
+            <div class="card-body">
+              <h5 class="card-title">Libras</h5>
+              <p class="card-text">Ensino Fundamental II</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Acesse o curso</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--Comunidades-->
+    <section class="comunidades">
+      <div class="titulo" id="secao-comunidades">
+        <h2 class="text-center h2 fonte-Montserrat cor-especial pt-4">Comunidades de aprendizagem</h2>
+        <p class="text-center text-secondary pb-3">Conheça, faça parte e crie seus grupos de interesse</p>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/Walle.jpg" class="card-img-top imagens-card" alt="tigela com salada de abacate, vista superior">
+            <div class="card-body">
+              <h5 class="card-title">Robótica</h5>
+              <p class="card-text">Brincando um pouquinho com inteligência computacional</p>
+              <a href="#" class="btn botao-cor-especial">Faça parte!</a>
+            </div>
+          </article>
+    
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/Xadrez.jpeg" class="card-img-top imagens-card" alt="tigela de mingau com kiwi, vista superior">
+            <div class="card-body">
+              <h5 class="card-title">Xadrez</h5>
+              <p class="card-text">A arte da estratégia</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Faça parte!</a>
+            </div>
+          </article>
+    
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/livro.webp" class="card-img-top imagens-card" alt="prato com mix de vegetais e mão de pessoa adicionando azeite, vista superior">
+            <div class="card-body">
+              <h5 class="card-title">Clube do livro</h5>
+              <p class="card-text">Trocando experiências literárias</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Faça parte!</a>
+            </div>
+          </article>
+    
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/educacao.jpg" class="card-img-top imagens-card" alt="prato de salada de pimentões com alguns ingredientes ao lado, vista superior">
+            <div class="card-body">
+              <h5 class="card-title">Alternativas de ensino</h5>
+              <p class="card-text">Algumas ideias</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Faça parte</a>
+            </div>
+          </article>
+    
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/sarau.jpg" class="card-img-top imagens-card" alt="tigela com salada de vegetais estilo oriental, vista de cima">
+            <div class="card-body">
+              <h5 class="card-title">Sarau</h5>
+              <p class="card-text">Nosso evento cultural</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Faça parte</a>
+            </div>
+          </article>
+    
+          <article class="card borda-cor-especial largura-card p-0 m-4 col-12 col-md-4">
+            <img src="src/img/teatro.jpg" class="card-img-top imagens-card" alt="tigela com beterrabas e dentes de alho assados em primeiro plano, com ingredientes ao fundo">
+            <div class="card-body">
+              <h5 class="card-title">Teatro</h5>
+              <p class="card-text">Atuando nos palcos</p>
+              <a href="#" class="btn botao-cor-especial mt-4">Faça parte!</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>  
+
+    <!--Anotações-->
+    <section class="anotacoes">
+      <div class="titulo" id="secao-anotacoes">
+        <h2 class="text-center h2 fonte-Montserrat cor-especial pt-4">Meus cadernos</h2>
+        <p class="text-center text-secondary pb-3">Suas anotações</p>
+      </div>
+      <div class="container">
+        <div class="card-columns cards-org">
+          <div class="card card-anotacoes">
+            <img class="card-img-top imagem-anotacoes" src="src/img/caderno.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Caderno de Português</h5>
+              <p class="card-text"> </p>
+            </div>
+          </div>
+          <div class="card p-3 card-anotacoes">
+            <blockquote class="blockquote mb-0 card-body">
+              <p>Tenho em mim todos os sonhos do mundo.</p>
+              <footer class="blockquote-footer">
+                <small class="text-muted">
+                  Fernando Pessoa
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card card-anotacoes">
+            <img class="card-img-top imagem-anotacoes" src="src/img/caderno.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Caderno de geografia</h5>
+              <p class="card-text"></p>
+              <p class="card-text"><small class="text-muted">´Ultima alteração: 3 minutos atrás</small></p>
+            </div>
+          </div>
+          <div class="card cor-card text-white text-center p-3 card-anotacoes">
+            <blockquote class="blockquote mb-0">
+              <p class="frase">Se a educação sozinha não transforma a sociedade, sem ela tampouco a sociedade muda.</p>
+              <footer class="blockquote-footer">
+                <small>
+                  Paulo Freire
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card text-center card-anotacoes">
+            <div class="card-body">
+              <h5 class="card-title">Anotações</h5>
+              <p class="card-text">Enviar tarefa de Ciências</p>
+              <p class="card-text"><small class="text-muted">Última atualização: 4 minutos atrás</small></p>
+            </div>
+          </div>
+          <div class="card card-anotacoes">
+            <img class="card-img imagem-anotacoes" src="src/img/caderno.jpg" alt="Card image">
+          </div>
+          <div class="card p-3 text-right card-anotacoes">
+            <blockquote class="blockquote mb-0">
+              <p>Eu sonho minha pintura, e então eu pinto o meu sonho.
+              </p>
+              <footer class="blockquote-footer">
+                <small class="text-muted">
+                  Van Gogh
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card card-anotacoes">
+            <div class="card-body">
+              <h5 class="card-title">Notas</h5>
+              <p class="card-text">Matemática: 10</p>
+              <p class="card-text">Artes: 8</p>
+              <p class="card-text">História: 10</p>
+              <p class="card-text"><small class="text-muted">Última atualização: 4 minutos atrás</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Chat-->
+    <section class="chats">
+      <div class="titulo" id="secao-chats">
+        <h2 class="text-center h2 fonte-Montserrat cor-especial pt-4">Meus chats</h2>
+        <p class="text-center text-secondary pb-3">Suas conversas no Tot</p>
+      </div>
+      <div class="container">
+        <div class="row clearfix">
+          <div class="col-lg-12">
+              <div class="card-especial chat-app">
+                  <div id="plist" class="people-list">
+                      <div class="input-group">
+                          <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="fa fa-search"></i></span>
+                          </div>
+                          <input type="text" class="form-control" placeholder="Procurar...">
+                      </div>
+                      <ul class="list-unstyled chat-list mt-2 mb-0">
+                          <li class="clearfix">
+                              <img src="src/img/leo.jpeg" alt="avatar">
+                              <div class="about">
+                                  <div class="name">Prof. Leonardo</div>
+                                  <div class="status"> <i class="fa fa-circle offline"></i> Online há 7 minutos</div>                                            
+                              </div>
+                          </li>
+                          <li class="clearfix active">
+                              <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="avatar">
+                              <div class="about">
+                                  <div class="name">Prof. Sócrates</div>
+                                  <div class="status"> <i class="fa fa-circle online"></i> Online </div>
+                              </div>
+                          </li>
+                          <li class="clearfix">
+                              <img src="src/img/mii.jpeg" alt="avatar">
+                              <div class="about">
+                                  <div class="name">Michelle Benites</div>
+                                  <div class="status"> <i class="fa fa-circle online"></i> Disponível </div>
+                              </div>
+                          </li>                                    
+                          <li class="clearfix">
+                              <img src="src/img/caderno.jpg" alt="avatar">
+                              <div class="about">
+                                  <div class="name">Português - 6º ano</div>
+                                  <div class="status"> <i class="fa fa-circle offline"></i> Online há 10 horas </div>
+                              </div>
+                          </li>
+                          <li class="clearfix">
+                              <img src="src/img/helena.jpeg" alt="avatar">
+                              <div class="about">
+                                  <div class="name">Elena Lima</div>
+                                  <div class="status"> <i class="fa fa-circle online"></i> Online </div>
+                              </div>
+                          </li>
+                          <li class="clearfix">
+                              <img src="src/img/ka.jpeg" alt="avatar">
+                              <div class="about">
+                                  <div class="name">Karina Benites</div>
+                                  <div class="status"> <i class="fa fa-circle offline"></i> Disponível </div>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="chat">
+                      <div class="chat-header clearfix">
+                          <div class="row">
+                              <div class="col-lg-6">
+                                  <a href="javascript:void(0);" data-toggle="modal" data-target="#view_info">
+                                      <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="avatar">
+                                  </a>
+                                  <div class="chat-about">
+                                      <h6 class="m-b-0">Prof. Sócrates</h6>
+                                      <small>Online</small>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6 hidden-sm text-right">
+                                  <a href="javascript:void(0);" class="btn btn-outline-secondary"><i class="fa fa-camera"></i></a>
+                                  <a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-image"></i></a>
+                                  <a href="javascript:void(0);" class="btn btn-outline-info"><i class="fa fa-cogs"></i></a>
+                                  <a href="javascript:void(0);" class="btn btn-outline-warning"><i class="fa fa-question"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="chat-history">
+                          <ul class="m-b-0">
+                              <li class="clearfix">
+                                  <div class="message-data text-right">
+                                      <span class="message-data-time">10h10, Hoje</span>
+                                      <img src="src/img/mel.jpg" alt="avatar">
+                                  </div>
+                                  <div class="message other-message float-right"> Oi, professor! Tudo bem? Você pode me ajudar no exercício 3?</div>
+                              </li>
+                              <li class="clearfix">
+                                  <div class="message-data">
+                                      <span class="message-data-time">10h12, Hoje</span>
+                                  </div>
+                                  <div class="message my-message">Com certeza!</div>                                    
+                              </li>                               
+                              <li class="clearfix">
+                                  <div class="message-data">
+                                      <span class="message-data-time">10h15, Hoje</span>
+                                  </div>
+                                  <div class="message my-message">Qual a sua dúvida?</div>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="chat-message clearfix">
+                          <div class="input-group mb-0">
+                              <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="fa fa-send"></i></span>
+                              </div>
+                              <input type="text" class="form-control" placeholder="Digite sua mensagem">                                    
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!--Fóruns-->
+    <section class="foruns">
+      <div class="titulo" id="secao-foruns">
+        <h2 class="text-center h2 fonte-Montserrat cor-especial pt-4">Fóruns</h2>
+        <p class="text-center text-secondary pb-3">Suas discussões</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+              <div class="wrapper wrapper-content animated fadeInRight">
+      
+                  <div class="ibox-content m-b-sm border-bottom">
+                      <div class="p-xs">
+                          <h2>Seja bem-vindo!</h2>
+                          <span>Sinta-se a vontade para compartilhar.</span>
+                      </div>
+                  </div>
+      
+                  <div class="ibox-content forum-container">
+      
+                      <div class="forum-title">
+                          <div class="pull-right forum-desc">
+                              <samll>Posts totais: 895</samll>
+                          </div>
+                          <h3>Mais procurados</h3>
+                      </div>
+      
+                      <div class="forum-item active">
+                          <div class="row">
+                              <div class="col-md-9">
+                                  <div class="forum-icon">
+                                      <i class="fa fa-shield"></i>
+                                  </div>
+                                  <a href="forum_post.html" class="forum-item-title">Clubinho</a>
+                                  <div class="forum-sub-title">Recomendação de filmes, séries, livros.</div>
+                              </div>
+                              <div class="col-md-1 forum-info">
+                                  <span class="views-number">
+                                      567
+                                  </span>
+                                  <div>
+                                      <small>Visualizações</small>
+                                  </div>
+                              </div>
+                              <div class="col-md-1 forum-info">
+                                  <span class="views-number">
+                                      54
+                                  </span>
+                                  <div>
+                                      <small>Tópicos</small>
+                                  </div>
+                              </div>
+                              <div class="col-md-1 forum-info">
+                                  <span class="views-number">
+                                      140
+                                  </span>
+                                  <div>
+                                      <small>Posts</small>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="forum-item">
+                          <div class="row">
+                              <div class="col-md-9">
+                                  <div class="forum-icon">
+                                      <i class="fa fa-bolt"></i>
+                                  </div>
+                                  <a href="forum_post.html" class="forum-item-title">Introduções!</a>
+                                  <div class="forum-sub-title">Novo aqui? Se apresente e conte um pouquinho sobre você! </div>
+                              </div>
+                              <div class="col-md-1 forum-info">
+                                  <span class="views-number">
+                                      200
+                                  </span>
+                                  <div>
+                                      <small>Visualizações</small>
+                                  </div>
+                              </div>
+                              <div class="col-md-1 forum-info">
+                                  <span class="views-number">
+                                      55
+                                  </span>
+                                  <div>
+                                      <small>Tópicos</small>
+                                  </div>
+                              </div>
+                              <div class="col-md-1 forum-info">
+                                  <span class="views-number">
+                                      55
+                                  </span>
+                                  <div>
+                                      <small>Posts</small>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="forum-item active">
+                          <div class="row">
+                              <div class="col-md-9">
+                                  <div class="forum-icon">
+                                      <i class="fa fa-calendar"></i>
+                                  </div>
+                                  <a href="forum_post.html" class="forum-item-title">Calendário</a>
+                                  <div class="forum-sub-title">Organizar a data de entrega de atividades</div>
+                              </div>
+                              <div class="col-md-1 forum-info">
+                                  <span class="views-number">
+                                      680
+                                  </span>
+                                  <div>
+                                      <small>Visualizações</small>
+                                  </div>
+                              </div>
+                              <div class="col-md-1 forum-info">
+                                  <span class="views-number">
+                                      16
+                                  </span>
+                                  <div>
+                                      <small>Tópicos</small>
+                                  </div>
+                              </div>
+                              <div class="col-md-1 forum-info">
+                                  <span class="views-number">
+                                      200
+                                  </span>
+                                  <div>
+                                      <small>Posts</small>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="forum-item">
+                          <div class="row">
+                              <div class="col-md-9">
+                                  <div class="forum-icon">
+                                      <i class="fa fa-star"></i>
+                                  </div>
+                                  <a href="forum_post.html" class="forum-item-title">Dúvidas</a>
+                                  <div class="forum-sub-title">Tire suas dúvidas com a comunidade!</div>
+                              </div>
+                              <div class="col-md-1 forum-info">
+                                  <span class="views-number">
+                                      1100
+                                  </span>
+                                  <div>
+                                      <small>Visualizações</small>
+                                  </div>
+                              </div>
+                              <div class="col-md-1 forum-info">
+                                  <span class="views-number">
+                                      100
+                                  </span>
+                                  <div>
+                                      <small>Tópicos</small>
+                                  </div>
+                              </div>
+                              <div class="col-md-1 forum-info">
+                                  <span class="views-number">
+                                      500
+                                  </span>
+                                  <div>
+                                      <small>Posts</small>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    <section>
+
+    <!--Sentimentos-->
+    <section class="foruns">
+      <div class="titulo" id="secao-sentimentos">
+        <h2 class="text-center h2 fonte-Montserrat cor-especial mt-4 pt-4">Espaço do sentimento</h2>
+        <p class="text-center text-secondary pb-3">Conte um poquinho sobre seus sentimentos! É anônimo :)</p>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="wrapper wrapper-content animated fadeInRight">      
+                    <div class="ibox-content forum-container">
+                        <div class="forum-title">
+                            <div class="pull-right forum-desc">
+                                <samll>Posts totais: 150</samll>
+                            </div>
+                            <h3>Últimos posts</h3>
+                        </div>
+                        <div class="forum-item">
+                          <div class="row">
+                              <div class="col-md-9">
+                                  <a href="forum_post.html" class="forum-item-title">Não sinto que estou aprendendo</a>
+                              </div>
+                          </div>
+                      </div>
+                        <div class="forum-item">
+                          <div class="row">
+                              <div class="col-md-9">
+                                  <a href="forum_post.html" class="forum-item-title">Muita cobrança</a>
+                              </div>
+                          </div>
+                      </div>
+                        <div class="forum-item">
+                          <div class="row">
+                              <div class="col-md-9">
+                                  <a href="forum_post.html" class="forum-item-title">Tristeza</a>
+                              </div>
+                          </div>
+                      </div>
+                        <div class="forum-item">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <a href="forum_post.html" class="forum-item-title">Ansiedade</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Sentimentos-->
+    <section class="foruns">
+      <div class="titulo" id="secao-pontuacao">
+        <h2 class="text-center h2 fonte-Montserrat cor-especial mt-4 pt-4">Minha pontuação</h2>
+        <p class="text-center text-secondary pb-3">Seu progresso na plataforma</p>
+      </div>
+      <div class="container mb-4">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="wrapper wrapper-content animated fadeInRight">      
+                    <div class="ibox-content forum-container">
+                        <div class="forum-title">
+                            <div class="pull-right forum-desc">
+                                <samll>Pontuação atual: 24 XP</samll>
+                            </div>
+                            <h3>Para chegar ao próximo nível você precisa de: 6 XP</h3>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-secondary p-3">
+    <p class="text-light m-0 text-center">Tot</a></p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src=""></script>
+
+</body>
+</html>
