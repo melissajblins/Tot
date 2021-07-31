@@ -10,3 +10,5 @@ O Tot é uma plataforma web responsiva voltada para a aprendizagem de crianças 
 * Espaço do sentimento: ambiente de contribuição anônima no qual são compartilhados as emoções sentidas ao longo do período escolar;
 * Minha pontuação: contagem dos pontos e do avanço do aluno no Tot.
 
+## Demonstração
+[Tot: vídeo de apresentação](https://drive.google.com/file/d/1mxIjp7YgxhGUiNYXOVUfloQFZXAp_bOz/view?usp=sharing)
