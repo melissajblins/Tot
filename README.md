@@ -11,4 +11,4 @@ O Tot é uma plataforma web responsiva voltada para a aprendizagem de crianças 
 * Minha pontuação: contagem dos pontos e do avanço do aluno no Tot.
 
 ## Demonstração
-[Tot: vídeo de apresentação da plataforma](https://drive.google.com/file/d/1mxIjp7YgxhGUiNYXOVUfloQFZXAp_bOz/view?usp=sharing)
+[Tot: vídeo de apresentação](https://drive.google.com/file/d/1mxIjp7YgxhGUiNYXOVUfloQFZXAp_bOz/view?usp=sharing)
